@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональне портфоліо</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Моє портфоліо</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Головна</a></li>
+                <li><a href="#about">Про автора</a></li>
+                <li><a href="#skills">Навички</a></li>
+                <li><a href="#projects">Проєкти</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="images/profile-photo.jpg" alt="Мій персональний аватар" width="250">
+            <h2>Привіт! Мене звати Радміла, або Savi(Саві) - це мій нік.</h2>
+            <p>Студентка університету, що вивчає комп'ютерні науки та телекомунікації та займається розробкою на Python. І ще багато чим ;).</p>
+        </section>
+
+        <section id="about">
+            <h2>Трохи про мене</h2>
+            <p>Я закінчую другий курс курс та активно освоюю веб-технології. Окрім програмування, я ще багато чим цікавлюся: різні ігри, перегляд різниих шоу, розробка різник приколюх на Python ну і на останок, я захоплююсь малюванням.</p>
+            <p>Цей сайт - дозволить мені покращити навички володіння кодом та використовувавти свою креативність.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Технічна частина</h2>
+            <ul>
+                <li>Розробка логіки на Python</li>
+                <li>Робота з Git та GitHub Desktop</li>
+                <li>Основи семантичної верстки HTML5</li>
+                <li>Конфігурування середовища VS Code</li>
+                <li>Базові знання метрології та стандартів</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Навчальні та власні проєкти</h2>
+            
+            <article class="card">
+                <h3>Система Core Memory</h3>
+           <img src="images/project-1.jpg" alt="Скриншот розробки в Godot" width="300">
+    <p>Розробка комплексної поведінкової моделі персонажа на базі GDScript. Реалізовано систему станів (FSM) для перемикання між режимами взаємодії, систему динамічних діалогів та обробку подій у реальному часі. Весь код структурований для забезпечення стабільної роботи ШІ-логіки всередині ігрового середовища.</p>
+    <a href="#">Опис функціоналу</a>
+</article>
+
+            <article class="card">
+                <h3>Оптимізація та аналіз</h3>
+                <img src="images/project-2.jpg" alt="Аналіз даних" width="300">
+                <p>Дослідження структури даних та робота з ідентифікаторами об'єктів у програмних середовищах.</p>
+               
+            </article>
+
+            <article class="card">
+                <h3>Персональне Web-Portfolio</h3>
+                <img src="images/project-3.jpg" alt="Веб-верстка" width="300">
+                <p>Навчальний проєкт з дисципліни «Веб-розробка». Практика створення базової структури сайту на HTML5 та робота з Git.</p>
+                
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Напишіть мені</h2>
+            <form>
+                <div>
+                    <label for="user-name">Ваше ім'я:</label>
+                    <input type="text" id="user-name" name="name" required placeholder="Ваше ім'я">
+                </div>
+                <div>
+                    <label for="user-email">Ваша пошта:</label>
+                    <input type="email" id="user-email" name="email" required placeholder="email@example.com">
+                </div>
+                <div>
+                    <label for="user-msg">Повідомлення:</label>
+                    <textarea id="user-msg" name="message" rows="5" placeholder="Ваш текст..."></textarea>
+                </div>
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Мартіросян Р.А. Проєкт з веб-розробки.</p>
+        <a href="https://github.com/TheeSaVi" target="_blank">Мій GitHub</a>
+    </footer>
+
+</body>
+</html>
